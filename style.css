@@ -143,7 +143,7 @@ h1 {
 
 .fri {
     position: absolute;
-    width: 220px;
+    width: 250px;
     right: 0;
     top: 270px;
 }
@@ -172,4 +172,47 @@ h1 {
 .cost sub {
     font-size: 24px;
     vertical-align: baseline;
+}
+
+.menu {
+    position: relative;
+    background: white;
+    padding: 35px 0 20px;
+}
+
+.lbl {
+    position: absolute;
+    top: -23px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #ffc71f;
+    color: white;
+    padding: 12px 60px;
+    border-radius: 25px;
+}
+
+.asdf {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.asdf > i {
+    color: #fa3329;
+}
+
+.itm {
+    text-align: center;
+}
+
+.itm img {
+    width: 134px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.itm p {
+    font-size: 12px;
+    margin-top: 6px;
 }
